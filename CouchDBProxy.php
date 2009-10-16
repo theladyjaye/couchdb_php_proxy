@@ -54,7 +54,7 @@
  *  </VirtualHost>
  *
  *  Sample Rewrite Rules:
- *  RewriteCond %{REQUEST_METHOD} ^(GET|HEAD|POST|PUT) [NC]
+ *  RewriteCond %{REQUEST_METHOD} ^(GET|HEAD|POST|PUT|DELETE) [NC]
  *  RewriteRule .* proxy.php [QSA,L]
  *
  **/
